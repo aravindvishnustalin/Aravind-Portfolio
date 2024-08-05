@@ -16,7 +16,7 @@ Biogen Supply Chain Analytics Project:-
 3. Two consumption patterns are analyzed using **MS Power BI** as follows: (1) Consumption pattern if orders are not consolidated (2) Consumption pattern if the orders are consolidated. 
    ![image](https://github.com/user-attachments/assets/28132378-48de-4ae9-aabe-3889e7857927)
 
-4. Identified the value of statistical concept called **Variability Pooling**, in this application. Through this, consolidated orders generate inventory holding cost savings. Created **Power Query** transformations to analyze consolidated orders
+4. Identified the value of statistical concept called **Variability Pooling**, in this application. This smoothens the fluctuations in usage quantities of individual warehouses, if consumed altogether in a single warehouse. Through this, consolidated orders generate inventory holding cost savings. Created **Power Query** transformations to analyze consolidated orders
    ![image](https://github.com/user-attachments/assets/80abf8b5-99bd-47b4-b51e-f40d180ba40c)
 
 5. Utlized **Lead Time** data from Procurement in **SAP Business Objects** to analyze Lead time variability and delays, therfore identifying actual lead time for the items. This is merged with the Usage_Variation Table.
@@ -26,6 +26,23 @@ Biogen Supply Chain Analytics Project:-
    ![image](https://github.com/user-attachments/assets/2fedb761-61f9-4cbe-a188-1840bb72115f)
 
    **RESULT**
+1. The time savings obtained on consolidating the orders is visualized by the below report:
+   ![image](https://github.com/user-attachments/assets/afee819f-ffd4-42f4-a752-ca62946c4a08)
+
+2. The Inventory holding cost savings obtained on consolidating the orders is reported in three sections:
+   **Section 1**: Safety stock Analysis illustrating the effect of **Variability Pooling** in smoothening the fluctuations in demand if we adopt combined usage (Without considering Lead time variability). Thus safety stock in centralized warehouse is lesser than sum of individual safety stocks among warehouses. 
+   ![image](https://github.com/user-attachments/assets/faca27a9-04b4-4427-8c2a-e6832dda4dc8)
+
+   **Section 2:** Safety Stock analysis just by considering lead time variability into picture.
+   ![image](https://github.com/user-attachments/assets/93b95cd7-cb1b-4268-8f07-1aca56753506)
+
+   **Section 3:** Total Safety Stock analysis considering lead time variability and demand variability. This illustrates the approximate savings in working capital if orders are consolidated
+   ![image](https://github.com/user-attachments/assets/796a2c79-f807-4254-8726-a5d3872b0572)
+
+   
+
+   
+   
    
 
 
