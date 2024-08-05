@@ -31,13 +31,15 @@ Biogen Supply Chain Analytics Project:-
 
 2. The Inventory holding cost savings obtained on consolidating the orders is reported in three sections:
    **Section 1**: Safety stock Analysis illustrating the effect of **Variability Pooling** in smoothening the fluctuations in demand if we adopt combined usage (Without considering Lead time variability). Thus safety stock in centralized warehouse is lesser than sum of individual safety stocks among warehouses. 
-   ![image](https://github.com/user-attachments/assets/31ae8662-c5ee-40ee-aa53-29c2699523df)
+   ![image](https://github.com/user-attachments/assets/ad37a470-7edc-421a-bf08-3338d31a37ac)
+
 
    **Section 2:** Safety Stock analysis just by considering lead time variability into picture.
-   ![image](https://github.com/user-attachments/assets/93b95cd7-cb1b-4268-8f07-1aca56753506)
+   ![image](https://github.com/user-attachments/assets/56751a50-0a02-4ea9-b1a9-1f16da27fe33)
 
    **Section 3:** Total Safety Stock analysis considering lead time variability and demand variability. This illustrates the approximate savings in working capital if orders are consolidated
-   ![image](https://github.com/user-attachments/assets/796a2c79-f807-4254-8726-a5d3872b0572)
+   ![image](https://github.com/user-attachments/assets/0c6fbc11-883b-44af-93fd-8829e9901f16)
+
 
    
 
