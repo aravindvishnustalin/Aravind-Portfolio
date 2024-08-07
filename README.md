@@ -1,4 +1,4 @@
-**Pharmaceutical Supply Chain Analytics:-**
+**Supply Chain Analytics:- Enabling efficient procurement of raw materials**
 
 **SITUATION** : Two warehouses RM1,DM1 orders materials independently for use. In some instances, there are delivery delays to one of the warehouses and so, orders delivered to the other warehouse needs to be shared. This causes shortage issues
 
